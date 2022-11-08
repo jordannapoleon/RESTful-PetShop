@@ -1,0 +1,24 @@
+PATCH http://localhost:5050/api/pets/8
+Content-Type: application/json
+
+{"name":"annie"}
+
+###
+
+PATCH http://localhost:5050/api/pets/8
+Content-Type: application/json
+
+{"age": 22, "name":"Scar"}
+
+###
+
+PATCH http://localhost:5050/api/pets/8
+Content-Type: application/json
+
+{"isExotic": "no", "name":"Scar"}
+
+###
+PATCH http://localhost:5050/api/pets/8
+Content-Type: application/json
+
+{"isExotic": "no", "location":"zoo"}

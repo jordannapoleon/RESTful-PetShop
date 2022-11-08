@@ -2,16 +2,17 @@
   "name": "restful-exercise",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "serverHttp.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "start:dev": "NODE_ENV=dev nodemon app.js",
-    "start:test": "NODE_ENV=test nodemon app.js"
+    "start": "nodemon serverHttp.js",
+    "start:dev": "NODE_ENV=dev nodemon serverHttp.js",
+    "start:test": "NODE_ENV=test nodemon serverHttp.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.8",
     "express": "^4.18.2",
     "pg": "^8.8.0"
   }
